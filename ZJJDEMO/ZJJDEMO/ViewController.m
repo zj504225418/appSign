@@ -19,13 +19,13 @@
     // Do any additional setup after loading the view.
     NSLog(@"123");
     NSLog(@"456");
+
     NSLog(@"a");
     NSLog(@"b");
     NSLog(@"c");
     NSLog(@"d");
     NSLog(@"e");
     NSLog(@"f");
-
 
 }
 
