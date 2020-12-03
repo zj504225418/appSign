@@ -20,6 +20,7 @@
 		0DBAE4F8251353C00028A790 /* Injection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBAE4EF251353BF0028A790 /* Injection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0DBAE4FE251354300028A790 /* ZJJInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAE4FC251354300028A790 /* ZJJInjection.h */; };
 		0DBAE4FF251354300028A790 /* ZJJInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAE4FD251354300028A790 /* ZJJInjection.m */; };
+		0DC17AFC251DF34300791F18 /* Injection.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0DBAE4EF251353BF0028A790 /* Injection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,16 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC17AFB251DF32B00791F18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0DC17AFC251DF34300791F18 /* Injection.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -158,6 +169,7 @@
 				0DBAE4C9251349C80028A790 /* Resources */,
 				0DBAE4E725134E860028A790 /* ShellScript */,
 				0DBAE4F7251353C00028A790 /* Embed Frameworks */,
+				0DC17AFB251DF32B00791F18 /* CopyFiles */,
 			);
 			buildRules = (
 			);

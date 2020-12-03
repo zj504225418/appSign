@@ -66,7 +66,7 @@ done
 fi
 
 #注入
-yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/HankHook.framework/HankHook"
+yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/Injection.framework/Injection"
 
 
 
