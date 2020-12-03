@@ -25,7 +25,6 @@
     NSLog(@"c");
     NSLog(@"d");
     NSLog(@"e");
-    NSLog(@"f");
 
 }
 
